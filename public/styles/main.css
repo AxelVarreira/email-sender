@@ -1,3 +1,7 @@
+:root{
+  --main-color: #182A62;
+  --background-color: #E4E6C3;
+}
 * {
   padding: 0;
   margin: 0;
@@ -13,4 +17,13 @@ h4,
 h5 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+input, textarea{
+  background-color: var(--main-color);
+  color: white;
 }

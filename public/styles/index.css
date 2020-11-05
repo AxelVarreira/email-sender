@@ -32,4 +32,11 @@
 
 #container .inputs-button .submit {
   margin-top: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--main-color);
+  color: white;
 }
